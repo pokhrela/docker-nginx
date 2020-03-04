@@ -23,7 +23,7 @@ resource "aws_ecs_task_definition" "default" {
 [
   {
     "name": "nginx",
-    "image": "pokhrelaashish/helloapp-nginx:v1",
+    "image": "000806314108.dkr.ecr.us-east-1.amazonaws.com/docker-nginx:latest",
     "essential": true,
     "portMappings": [
       {
