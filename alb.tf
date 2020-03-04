@@ -20,7 +20,7 @@ resource "aws_lb_target_group" "default" {
     healthy_threshold   = 5
     unhealthy_threshold = 2
     timeout             = "5"
-    port                = "8080"
+    port                = "80"
     path                = "/"
     protocol            = "HTTP"
     interval            = 30
